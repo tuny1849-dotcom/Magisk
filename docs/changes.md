@@ -1,14 +1,14 @@
-# Magisk Changelog
+#
 
-### v31.1 (2026.10.24)
+### NGC 246
 
-- [General] Support Headless System User Mode (HSUM) devices
-- [General] Drop support for Android 6.0; Android 7.0 is now the minimum supported version
-- [General] Remove the app hiding (repackaging) feature and the stub app; Magisk no longer reinstalls the app automatically if it is missing
-- [App] Remove reactive superuser request prompts; superuser access is now explicitly granted ahead of time in the Superuser tab
-- [App] Unify the image patching pipeline across local files and remote URLs for raw images, OTA zips, factory image zips, Samsung Odin tars, and Aluminium OS recovery GPT images
-- [App] Automatically suggest official firmware downloads for Google Pixel and Googlebook (Aluminium OS) devices
-- [App] Support patching Aluminium OS recovery images and writing directly to a connected USB drive on Googlebooks
+-   []General] Destek Başsız Sistem Kullanıcı Modu (HSUM) cihazları 
+-   []General] Android 6.0 için Drop desteği; Android 7.0 artık desteklenen minimum sürümdür 
+-   []General] Uygulamayı gizleme (repackaging) özelliğini ve taslak uygulamasını silme; eksikse Magisk artık uygulamayı otomatik olarak yeniden yüklemiyor 
+-  []Uygulama] Reaktif süper kullanıcı istek istemlerini kaldırın; süper kullanıcı erişimi artık Süperuser sekmesinde zaman öncesinden açıkça verilmiştir.
+-  []Uygulama] Ham görüntüler, OTA zipsleri, fabrika görüntü zipsleri, Samsung Odin tars ve alüminyum OS kurtarma GPT görüntüleri için yerel dosyalar ve uzak URL'ler arasında görüntü yama hattını birleştirin
+-  []Uygulama] Google Pixel ve Googlebook (Aluminium OS) cihazları için resmi üretici yazılımı indirmelerini otomatik olarak önerin
+-  []Uygulama] Alüminyum işletim sistemi kurtarma görüntülerini yamaama ve doğrudan bağlı bir USB sürücüsüne yazma desteği
 - [App] Display real-time in-place read/write progress and transfer speeds when downloading and patching images
 - [MagiskSU] Remove obsolete superuser access mode and reauthentication settings
 - [MagiskSU] Fix `-g`/`-G` argument handling, forward unknown options to the shell, and fix daemon exec signal handling
@@ -17,7 +17,7 @@
 - [MagiskBoot] Preserve Samsung `SignerVer02` signatures during boot image repack
 - [MagiskBoot] Revert updating AVB hash descriptor image size on repack
 - [MagiskBoot] Enable architecture-specific BCJ filters for XZ compression and improve `zImage` compressed payload detection
-- [MagiskBoot] Support building `magiskboot` natively on Linux and macOS hosts
+ Magisk changelog  NGC 246  []General] Uygulamayı gizleme (repackaging) özelliğini ve taslak uygulamasını silme; eksikse Magisk artık uygulamayı otomatik olarak yeniden yüklemiyor] Support building `magiskboot` natively on Linux and macOS hosts
 - [Core] Fix potential crashes when handling `NULL` database strings or failed daemon connections
 
 ### v31.0 (2026.9.4)
